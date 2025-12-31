@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff7ed;
+    color: #1f2937;
+}
+
+.page-title{
+    text-align: center;
+    padding: 20px;
+    background: #fb923c;
+    color: #0f172a;
+}
+
+.course-section{
+    margin: 30px;
+}
+
+.course-section h3{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+/* Table Wrapper for Mobile */
+.table-wrap{
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
+/* Table Styling */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+    background: white;
+}
+
+thead{
+    background: #fdba74;
+    position: sticky;
+    top: 0;
+}
+
+th, td{
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:nth-child(even){
+    background: #fff7ed;
+}
+
+tbody tr:hover{
+    background: #fed7aa;
+}
+
+/* Links */
+td a{
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+td a:hover{
+    color: #dc2626;
+    text-decoration: underline;
+}
+
+/* Small screens */
+@media(max-width: 768px){
+    .course-section{
+        margin: 15px;
+    }
+}

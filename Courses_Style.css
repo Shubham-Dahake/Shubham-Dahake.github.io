@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    background-color: #d39bee;
+    font-family: Arial, sans-serif;
+    color: #f5f3ff;
+}
+
+.card1{
+    padding: 20px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+h2{
+    text-align: center;
+    color: #241633;
+    background: #b575fa;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+hr{
+    border: 1px solid #E0A96D;
+}
+
+/* Videos */
+.images{
+    display: flex;
+    gap: 10px;
+    background: #3a235a;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.images img{
+    width: 25%;
+    height: 150px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.images img:hover{
+    transform: scale(1.05);
+}
+
+/* Course Lists */
+.headl{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.headl > li{
+    flex: 1;
+    background: #3a235a;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.headl > li:hover{
+    transform: translateY(-5px);
+}
+
+.list li:hover{
+    color: #f9a8d4;
+}
+
+/* Process */
+.process{
+    display: flex;
+    gap: 10px;
+}
+
+.process div{
+    flex: 1;
+    background: #4b2c72;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Who */
+.who{
+    background: #3a235a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Tools */
+.tools span{
+    display: inline-block;
+    background: #b575fa;
+    color: #241633;
+    padding: 8px 14px;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+/* FAQ */
+.faq{
+    background: #3a235a;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+/* CTA */
+.cta{
+    background: #241633;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cta button{
+    background: #f9a8d4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h5 a{
+  display: inline;
+  text-decoration: none;
+  color: #f9a8d4;
+
+  padding: 2px 4px;
+  
+}
+h5 a:hover{
+  background-color: #241633;
+  text-decoration: underline;
+  transform: translateY(20px);
+  color: #b575fa;
+  
+  
+}
+.cta a{
+    color: rgb(248, 151, 151);
+    padding: 5px;
+    margin-top: 100px;
+}
+.cta a:hover{
+    color: red;
+    
+}

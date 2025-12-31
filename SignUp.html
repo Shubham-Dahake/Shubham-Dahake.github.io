@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apni Kaksha | Sign Up</title>
+    <link rel="stylesheet" href="login_style.css">
+    <script src="pass.js" defer></script>
+</head>
+<body>
+
+<div class="auth-container">
+    <div class="auth-box">
+        <h2>Create Account</h2>
+
+        <form action="home.html" method="get" onsubmit="return checkPass()">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="password" id="pass" placeholder="Create Password" required minlength="6">
+            <input type="password" id="cpass" placeholder="Confirm Password" required minlength="6">
+
+            <button type="submit">Sign Up</button>
+
+            <p class="small-text">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+        </form>
+    </div>
+</div>
+
+<footer>
+    © 2025 Apni Kaksha | Learn • Grow • Succeed
+</footer>
+
+</body>
+</html>
