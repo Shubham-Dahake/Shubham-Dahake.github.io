@@ -1,4 +1,4 @@
-✨ A well-structured multi-page educational course website built using HTML, CSS, and JavaScript, designed to deliver a smooth and engaging online learning experience.
+✨ A well-structured multi-page educational course website built using HTML, CSS, and JavaScript, designed to deliver a smooth and engaging online learning experience.<br>
 📚 Includes clearly organized course sections and 📄 detailed study material pages for easy learning.
 🔐 Features user authentication with sign-in and sign-up pages to manage access.
 🧭 Uses a clean, structured layout with simple navigation for better usability.
