@@ -98,6 +98,8 @@ nav a:hover{
     width: 180px;
     border-radius: 50%;
     margin: 15px 0;
+    border: #1b0d0d solid;
+
 }
 .social-links a{
     text-decoration: none;
